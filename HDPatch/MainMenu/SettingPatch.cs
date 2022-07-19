@@ -88,7 +88,7 @@ namespace HDMods
     class ApplyGraphics_Patch
     {
         [HarmonyPrefix]
-        internal static bool Prefix(Fifo.Core.Settings __instance)
+        internal static bool Prefix()
         {
 
             SettingPatch.saveSettings();
@@ -101,7 +101,7 @@ namespace HDMods
     class ApplyAudio_Patch
     {
         [HarmonyPrefix]
-        internal static bool Prefix(Fifo.Core.Settings __instance)
+        internal static bool Prefix()
         {
 
             SettingPatch.saveSettings();
@@ -114,7 +114,7 @@ namespace HDMods
     class ApplyGame_Patch
     {
         [HarmonyPrefix]
-        internal static bool Prefix(Fifo.Core.Settings __instance)
+        internal static bool Prefix()
         {
 
             SettingPatch.saveSettings();

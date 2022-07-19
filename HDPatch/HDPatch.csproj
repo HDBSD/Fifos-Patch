@@ -49,14 +49,23 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\Fifo's Night\Fifo's Night_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Fifo's Night\Fifo's Night_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.InputModule">
       <HintPath>..\..\..\Fifo's Night\Fifo's Night_Data\Managed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dev\DebugUI.cs" />
     <Compile Include="HDPatch.cs" />
-    <Compile Include="SettingPatch.cs" />
+    <Compile Include="MainMenu\SettingPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainMenu\MenuingPatches.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GamePlay\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
