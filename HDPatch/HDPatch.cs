@@ -17,7 +17,7 @@ namespace HDMods
         {
             base.OnApplicationStart();
 
-            DevMode = Environment.GetCommandLineArgs().Contains("--HDPatch_Dev");
+            DevMode = Environment.GetCommandLineArgs().Contains("-HDPatch_Dev");
 
             // create conf dir in game folder
             System.IO.Directory.CreateDirectory(Environment.CurrentDirectory + @"\Conf");
