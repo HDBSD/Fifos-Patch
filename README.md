@@ -11,7 +11,7 @@ MelonLoader
 - Fixed a bug that resulted in overwriting of in memory save data, allowing a save to be loaded in the wrong stage.
 
 # Notes
-- Implemented primitive testing tools by starting the game with parameter "--HDPatch_Dev"
+- Implemented primitive testing tools by starting the game with parameter "-HDPatch_Dev"
 
 # File Structure
 
